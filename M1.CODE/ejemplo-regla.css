@@ -1,0 +1,6 @@
+/* Selector que apunta a todos los parrafos de la pagina */
+p {
+color: #2c3e50; /* Cambia el color del texto */
+font-size: 16px; /* Define el tamano de la fuente */
+line-height: 1.6; /* Ajusta la altura de la linea */
+}

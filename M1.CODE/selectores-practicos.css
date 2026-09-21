@@ -1,0 +1,13 @@
+dor (ej. #cabecera-principal).
+/* Selector de Elemento */
+h2 { color: #2980b9; }
+/* Selector de Clase */
+.boton-primario {
+background-color: #2ecc71;
+border-radius: 4px;
+}
+/* Selector de ID */
+#cabecera-principal {
+padding: 20px;
+border-bottom: 2px solid #ddd;
+}

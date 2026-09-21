@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Portal Corporativo - Demostracion</title>
+<!-- Enlace a hoja de estilo externa: <link rel="stylesheet" href="estilos.css"> -->
+<style>
+body { font-family: sans-serif; background-color: #F8FBFE; padding: 20px; }
+.card { background: white; border: 1px solid #CBD5E1; padding: 15px; border-radius: 8px; }
+.btn { background: #1E75B8; color: white; border: none; padding: 8px 12px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Portal de Servicios</h1>
+<p id="mensaje">Presione el boton para interactuar con la logica en cliente.</p>
+<button class="btn" onclick="mostrarConfirmacion()">Pulsar Accion</button>
+</div>
+<!-- Enlace a script JavaScript externo: <script src="app.js"></script> -->
+<script>
+function mostrarConfirmacion() {
+document.getElementById('mensaje').textContent = 'Accion registrada exitosamente en cliente.';
+}
+</script>
+</body>
+</html>

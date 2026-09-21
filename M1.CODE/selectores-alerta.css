@@ -1,0 +1,8 @@
+.alerta {
+background-color: #FEF3C7;
+padding: 12px;
+}
+#alerta-critica {
+color: #DC2626;
+font-weight: bold;
+}

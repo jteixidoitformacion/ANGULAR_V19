@@ -1,0 +1,10 @@
+.btn-accion {
+font-family: 'Segoe UI', sans-serif;
+font-size: 14px;
+color: #FFFFFF;
+background-color: #059669;
+width: 160px;
+text-align: center;
+padding: 10px;
+border-radius: 6px;
+}
