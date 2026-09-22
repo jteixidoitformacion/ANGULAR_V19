@@ -1,0 +1,16 @@
+{
+"nombre": "Buzz Lightyear",
+"rango": "Guardián Espacial",
+"activo": true,
+"nivelEnergia": 98.5,
+"tripulacion": {
+"nave": "Star Cruiser 42",
+"capacidad": 2,
+"soporteVital": true
+},
+"misiones": [
+"Exploración Sector Gamma",
+"Defensa Planetaria",
+"Rescate en Cuadrante Zeta"
+]
+}

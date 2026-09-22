@@ -1,0 +1,8 @@
+@for (course of courses; track course.id) {
+<div class="course-item">
+<h3>{{ course.title }}</h3>
+<p>Duración: {{ course.hours }} horas</p>
+</div>
+} @empty {
+<p class="no-data">No hay cursos disponibles actualmente.</p>
+}

@@ -1,0 +1,11 @@
+@switch (userRole) {
+@case ('admin') {
+<app-admin-panel />
+}
+@case ('editor') {
+<app-editor-panel />
+}
+@default {
+<app-reader-panel />
+}
+}

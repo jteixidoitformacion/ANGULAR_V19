@@ -1,0 +1,13 @@
+@if (isLoggedIn) {
+<div class="user-card">
+<p>Bienvenido, {{ user.name }}</p>
+</div>
+} @else if (isGuest) {
+<div class="guest-card">
+<p>Bienvenido, Invitado. Modo de exploración activo.</p>
+</div>
+} @else {
+<div class="anon-card">
+<p>Por favor, inicia sesión en la plataforma para acceder a tus servicios.</p>
+</div>
+}

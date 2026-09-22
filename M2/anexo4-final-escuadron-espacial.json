@@ -1,0 +1,21 @@
+{
+"codigoEscuadron": "SQ-ALPHA-99",
+"misionActiva": true,
+"cuadrante": {
+"sector": "Sector Estelar 04",
+"coordenadaX": 142.85,
+"coordenadaY": -89.40
+},
+"naves": [
+{
+"matricula": "SC-01",
+"comandante": "Buzz Lightyear",
+"autonomiaHoras": 48
+},
+{
+"matricula": "SC-02",
+"comandante": "Woody Pride",
+"autonomiaHoras": 36
+}
+]
+}
