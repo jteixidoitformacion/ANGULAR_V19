@@ -1,0 +1,6 @@
+[submodule "proyecto_m5"]
+	path = proyecto_m5
+	url = https://github.com/jteixidoitformacion/ANGULAR19_PROYECTOM5.git
+[submodule "proyecto_m6"]
+	path = proyecto_m6
+	url = https://github.com/jteixidoitformacion/ANGULAR19_PROYECTOM6.git
