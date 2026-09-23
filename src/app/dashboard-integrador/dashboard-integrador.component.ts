@@ -19,7 +19,7 @@ export class DashboardIntegradorComponent {
   servidorActivo = signal<string>('Norteamerica');
   rutaServidor = linkedSignal({
     source: this.servidorActivo,
-    computation: (nuevoServidor) => {
+    computation: (nuevoServidor): string => {
       return nuevoServidor === 'Norteamerica'
         ? 'https://us-api.servicios-cloud.org/v1'
         : 'https://eu-api.servicios-cloud.org/v1';
