@@ -1,0 +1,4 @@
+{
+path: 'soporte',
+component: SoporteComponent
+}

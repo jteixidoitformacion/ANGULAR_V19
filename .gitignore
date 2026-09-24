@@ -1,22 +1,18 @@
 .gitignore
 
-M4/
 M5/
 M6/
 p*SRC/
 p*new/
-p*m4/
 p*m5/
 p*m6/
 
 angular-nineteen-mastery/
 GestorPro/
 
-DOCUMENTACIÓN/LISTINGS_CODIGOS/M4/*
 DOCUMENTACIÓN/LISTINGS_CODIGOS/M5/*
 DOCUMENTACIÓN/LISTINGS_CODIGOS/M6/*
 
-DOCUMENTACIÓN/04*
 DOCUMENTACIÓN/05*
 DOCUMENTACIÓN/06*
 
