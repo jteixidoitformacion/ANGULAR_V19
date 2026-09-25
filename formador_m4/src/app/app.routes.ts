@@ -1,17 +1,12 @@
 import { Routes } from '@angular/router';
-import { BaseLayoutComponent } from './base-layout/base-layout.component';
-import { ClientesComponent } from './clientes/clientes.component';
-import { ProductosComponent } from './productos/productos.component';
-import { ServiciosComponent } from './servicios/servicios.component';
-
+import { DashboardComponent } from './features/dashboard/dashboard.component';
+import { Error404Component } from './features/error-404/error-404.component';
 export const routes: Routes = [
-	{
-		path: '',
-		component: BaseLayoutComponent,
-		children: [
-			{ path: 'clientes', component: ClientesComponent },
-			{ path: 'servicios', component: ServiciosComponent },
-			{ path: 'productos/:gama/:marca', component: ProductosComponent }
-		]
-	}
+  // Ruta por defecto con coincidencia total
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full' }, // Componentes aislados importados directamente
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'dashboard/:name', component: DashboardComponent },
+  { path: 'panel', component: DashboardComponent },
+  // Comodin para capturar cualquier ruta invalida
+  { path: '**', component: Error404Component },
 ];
