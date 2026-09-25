@@ -1,13 +1,13 @@
 {
-  "name": "formador-m3",
+  "name": "formador-m6",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "serve": "ng serve --port 9093",
+    "serve": "ng serve --port 9096",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:formador_m3": "node dist/formador_m3/server/server.mjs"
+    "serve:ssr:formador_m6": "node dist/formador_m6/server/server.mjs"
   },
   "private": true,
   "dependencies": {

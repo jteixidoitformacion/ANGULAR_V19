@@ -1,0 +1,5 @@
+{
+"usuarios": [
+{ "id": "1", "nombre": "Operador Sistema", "correo": "operador@empresa.org" }
+]
+}

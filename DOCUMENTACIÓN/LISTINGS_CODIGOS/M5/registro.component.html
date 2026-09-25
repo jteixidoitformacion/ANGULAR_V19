@@ -1,0 +1,12 @@
+y formControlName:
+<form [formGroup]="miFormulario" (ngSubmit)="onSubmit()">
+<div>
+<label for="nombre">Nombre Completo: </label>
+<input id="nombre" type="text" formControlName="nombre">
+</div>
+<div>
+<label for="correo">Correo Electrónico: </label>
+<input id="correo" type="email" formControlName="correo">
+</div>
+<button type="submit" [disabled]="miFormulario.invalid">Registrar</button>
+</form>
